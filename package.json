@@ -1,0 +1,36 @@
+{
+  "name": "mycustomconsole",
+  "version": "1.2.1",
+  "description": "我的练手轮子～",
+  "main": "dist/index.js",
+  "author": "1451778027@qq.com",
+  "repository": "xiaoge19961220/mycustomconsole.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "files": [
+    "src/index.js",
+    "dist"
+  ],
+  "keywords": [
+    "color",
+    "terminal",
+    "console",
+    "string",
+    "str",
+    "style",
+    "styles",
+    "formatting",
+    "rgb",
+    "log"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5"
+  },
+  "dependencies": {
+    "mycustomconsole": "^1.0.4"
+  }
+}
